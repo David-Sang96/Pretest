@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&family=Kanit:ital,wght@0,400;1,500&family=Lato:wght@300&family=Montserrat:wght@500&family=Open+Sans&family=Reggae+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: inherit;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+header{
+  padding: 4rem 8rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .list-item a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding-inline: 2rem;
+  font-weight: 500;
+  color: #000;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+.left-content {
+  width: 40%;
+  padding-block: 7rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+.left-content h2 {
+  font-size: 4rem;
+}
+.left-content p {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+.input-field {
+  margin-top: 2rem;
+}
+.input-field input {
+  width: 40%;
+  height: 3rem;
+  text-indent: 5px;
+  outline: none;
+  margin-right: 2rem;
+}
+.input-field button {
+  padding: 1rem 5rem;
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  border-radius: 3px;
+}
+.input-field button:hover {
+  opacity: 0.8;
+}
+.svg {
+  width: 45%;
+  padding-right: 1rem;
+}
+.second {
+  margin-top: 20rem;
+}
+.secSvg {
+  width: 100%;
+}
+.third {
+  display: flex;
+  padding: 4rem 8rem 12rem;
+  justify-content: space-between;
+  margin-top: -2rem;
+  background-color: hsl(240, 75%, 98%);
+}
+.left-content-two {
+  width: 40%;
+  text-align: justify;
+}
+.left-content-two h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+.left-content-two p {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+.aboutFylo {
+  display: inline-block;
+  width: 24%;
+  margin-top: 2rem;
+  color: hsl(170, 45%, 43%);
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+}
+.arrowSvg {
+  width: 10%;
+  margin-left: 1rem;
+}
+.testimony-box {
+  width: 42%;
+  border-radius: 5px;
+  border: 1px solid rgba(190, 213, 214, 0.3);
+  box-shadow: 0 0 2rem #baa789;
+  margin-top: 7rem;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.testimony-box .mini-box {
+  padding-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.testimonySvg {
+  border-radius: 50%;
+  width: 13%;
+}
+.fourth {
+  display: flex;
+  padding: 8rem;
+  justify-content: space-between;
+  gap: 14rem;
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(240, 75%, 98%);
+}
+.left-content-three {
+  width: 50%;
+}
+.left-content-three h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.left-content-three p {
+  font-size: 1.5rem;
+}
+.second-input-field {
+  width: 50%;
+  padding-left: 30rem;
+  padding-top: 2rem;
+}
+.second-input-field input {
+  width: 70%;
+  height: 3rem;
+  text-indent: 5px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.second-input-field button {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  border-radius: 3px;
+}
+.second-input-field button:hover {
+  opacity: 0.8;
+}
+footer {
+  color: hsl(240, 75%, 98%);
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+.contact-details{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+ flex-direction: column;
+  padding-left: 8rem;
+}
+.informations{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-top: 15rem;
+ 
+}
+.informations a{
+  display: flex;
+  padding-block: 1rem;
+  color: hsl(240, 75%, 98%);
+  text-decoration: none;
+}
+.informations .logo a{
+  color: hsl(240, 75%, 98%);
+  display: inline-block;
+}
